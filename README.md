@@ -1,6 +1,6 @@
 ## CI/CD on HuaweiCloud 
 
-![](/huaweicloud-cicd.PNG)
+![](./huaweicloud-cicd.PNG)
 
 [Jenkins CI/CD based on HuaweiCloud](/jenkins-pipeline.md)
 
