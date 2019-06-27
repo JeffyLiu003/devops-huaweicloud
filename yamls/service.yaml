@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: service-demo
+  name: service-demo
+  namespace: default
+spec:
+  ports:
+  - name: service0
+    port: 80
+    protocol: TCP
+  selector:
+    app: jenkins-demo
+  sessionAffinity: None
+  type: NodePort
